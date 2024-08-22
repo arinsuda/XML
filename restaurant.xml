@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant xmlns:menu="http://menu.com/menu" xmlns:ing="http://ingredients.com/ingredients">
+    <menu:menuItem id="m001">
+        <menu:title>Margherita Pizza</menu:title>
+        <menu:size type="small">Small</menu:size>
+        <menu:size type="medium">Medium</menu:size>
+        <menu:size type="large">Large</menu:size>
+        <menu:price currency="USD">10.99</menu:price>
+        <ing:ingredients>
+            <ing:ingredient name="Tomato Sauce">
+                <ing:amount>150g</ing:amount>
+            </ing:ingredient>
+            <ing:ingredient name="Mozzarella Cheese">
+                <ing:amount>200g</ing:amount>
+            </ing:ingredient>
+            <ing:ingredient name="Basil">
+                <ing:amount>10g</ing:amount>
+            </ing:ingredient>
+        </ing:ingredients>
+    </menu:menuItem>
+    <menu:menuItem id="m002">
+        <menu:title>Pepperoni Pizza</menu:title>
+        <menu:size type="small">Small</menu:size>
+        <menu:size type="medium">Medium</menu:size>
+        <menu:size type="large">Large</menu:size>
+        <menu:price currency="USD">12.99</menu:price>
+        <ing:ingredients>
+            <ing:ingredient name="Tomato Sauce">
+                <ing:amount>150g</ing:amount>
+            </ing:ingredient>
+            <ing:ingredient name="Mozzarella Cheese">
+                <ing:amount>200g</ing:amount>
+            </ing:ingredient>
+            <ing:ingredient name="Pepperoni">
+                <ing:amount>100g</ing:amount>
+            </ing:ingredient>
+        </ing:ingredients>
+    </menu:menuItem>
+</restaurant>

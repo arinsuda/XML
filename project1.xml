@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<proj:projects xmlns:person="http://persons.com/persons" xmlns:proj="http://projects.com/projects">
+    <proj:project num='p192'>
+        <proj:title>XML Fulltext Search</proj:title>
+        <proj:review grade='S'>Well done</proj:review>
+        <person:advisor>
+            <person:fn>Andy</person:fn>
+            <person:ln>Bryan</person:ln>
+        </person:advisor>
+        <proj:members>
+            <person:student code='z11'>
+                <person:fn>Carey</person:fn>
+                <person:ln>Davis</person:ln>
+            </person:student>
+            <person:student code='z53'>
+                <person:fn>Yale</person:fn>
+                <person:ln>Zolo</person:ln>
+            </person:student>
+        </proj:members>
+    </proj:project>
+    <proj:project num='r283'>
+        <proj:title>Textual Warehouse</proj:title>
+        <proj:review grade='I'>Still need a lot of works to do</proj:review>
+        <person:advisor>
+            <person:fn>Oil</person:fn>
+            <person:ln>Pines</person:ln>
+        </person:advisor>
+        <person:student code='z14'>
+            <person:fn>Edward</person:fn>
+            <person:ln>Ferry</person:ln>
+        </person:student>
+    </proj:project>
+    <proj:project num='q376'>
+        <proj:title>Extended Modeling</proj:title>
+        <person:advisor>
+            <person:fn>Will</person:fn>
+            <person:ln>Xen</person:ln>
+        </person:advisor>
+        <proj:members>
+            <person:student code='z13'>
+                <person:fn>Inch</person:fn>
+                <person:ln>James</person:ln>
+            </person:student>
+            <person:student code='z55'>
+                <person:fn>Sam</person:fn>
+                <person:ln>Times</person:ln>
+            </person:student>
+        </proj:members>
+    </proj:project>
+    <proj:project num='o405'>
+        <proj:title>XML Indexing</proj:title>
+        <person:advisor>
+            <person:fn>Karl</person:fn>
+            <person:ln>Long</person:ln>
+        </person:advisor>
+        <person:advisor>
+            <person:fn>Uno</person:fn>
+            <person:ln>Vines</person:ln>
+        </person:advisor>
+        <proj:members>
+            <person:student code='z12'>
+                <person:fn>Que</person:fn>
+                <person:ln>Reading</person:ln>
+            </person:student>
+            <person:student code='z54'>
+                <person:fn>Magic</person:fn>
+                <person:ln>Niles</person:ln>
+            </person:student>
+            <person:student code='z76'>
+                <person:fn>George</person:fn>
+                <person:ln>Heat</person:ln>
+            </person:student>
+        </proj:members>
+    </proj:project>
+</proj:projects>
